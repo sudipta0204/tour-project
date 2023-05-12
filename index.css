@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid black;
+}
+.cell{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+background: brown;
+text-transform: uppercase;
+color:black;
+border: 3px solid green;
+padding: 2rem;
+}
+.cell-1{
+    background:red;
+}
+.cell-2{
+    background: green;
+}
+.cell-3{
+    background:yellow;
+}
+.cell-4{
+    background:blue;
+}
